@@ -1,0 +1,11 @@
+{
+  "name": "twitter-summer",
+  "version": "1.0.0",
+  "description": "いの #夏休み残りn時間",
+  "main": "left.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
