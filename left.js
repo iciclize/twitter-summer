@@ -23,11 +23,11 @@
 
 
 /*
-* DATE_OF_SCHOOL_STARTS    学校が始まる日付(Dateオブジェクト)を入れて差し上げろ
+* DATE_OF_SCHOOL_START    学校が始まる日付(Dateオブジェクト)を入れて差し上げろ
 * TEMPLATE    名前のテンプレート。{HOURS}は残り時間数に、{DAYS}は残り日数に置換される
 */
 
-var DATE_OF_SCHOOL_STARTS = new Date('2016-8-29 UTC+0900');
+var DATE_OF_SCHOOL_START = new Date('2016-8-29 UTC+0900');
 var TEMPLATE = 'いの #夏休み残り{HOURS}時間';
 
 
@@ -40,7 +40,7 @@ var AN_HOUR_MS = 60 * 60 * 1000;
 var A_DAY_MS = 24 * 60 * 60 * 1000;
 
 var now = new Date();
-var timespan_ms = DATE_OF_SCHOOL_STARTS.getTime() - now.getTime();
+var timespan_ms = DATE_OF_SCHOOL_START.getTime() - now.getTime();
 var lefts = {
     days: Math.floor(timespan_ms / A_DAY_MS),
     hours: Math.floor(timespan_ms / AN_HOUR_MS)
