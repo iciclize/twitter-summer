@@ -27,7 +27,7 @@
 * TEMPLATE    名前のテンプレート。{HOURS}は残り時間数に、{DAYS}は残り日数に置換される
 */
 
-var DATE_OF_SCHOOL_STARTS = new Date('2016-9-1 UTC+0900');
+var DATE_OF_SCHOOL_STARTS = new Date('2016-8-29 UTC+0900');
 var TEMPLATE = 'いの #夏休み残り{HOURS}時間';
 
 
