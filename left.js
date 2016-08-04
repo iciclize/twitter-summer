@@ -49,7 +49,7 @@ var timespan_ms = DATE_OF_SCHOOL_START.getTime() - now.getTime();
 var lefts = {
     days: Math.floor(timespan_ms / A_DAY_MS),
     hours: Math.floor(timespan_ms / AN_HOUR_MS),
-    percent: Math.round( 100 * timespan_ms / (DATE_OF_SCHOOL_START.getTime() - DATE_OF_SUMMER_VACATION_START.getTime()) ) / 100
+    percent: Math.round( 100 * 100 * timespan_ms / (DATE_OF_SCHOOL_START.getTime() - DATE_OF_SUMMER_VACATION_START.getTime()) ) / 100
 };
 
 
